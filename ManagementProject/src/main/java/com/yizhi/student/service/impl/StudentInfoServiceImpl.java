@@ -31,7 +31,6 @@ public class StudentInfoServiceImpl implements StudentInfoService {
 	public List<StudentInfoDO> list(Map<String, Object> map){
 		return studentInfoDao.list(map);
 	}
-
 	//"===================================================================================="
 
 
